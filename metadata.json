@@ -1,0 +1,35 @@
+{
+  "name": "rmueller-pkg_inventory",
+  "version": "0.1.0",
+  "author": "rmueller",
+  "summary": "Export package inventory facts",
+  "license": "Apache-2.0",
+  "source": "https://github.com/roman-mueller/rmueller-pkg_inventory",
+  "project_page": "https://github.com/roman-mueller/rmueller-pkg_inventory",
+  "issues_url": "https://github.com/roman-mueller/rmueller-pkg_inventory/issues",
+  "tags": ["inventory"],
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease":[ "5", "6", "7" ]
+    },
+    {
+      "operatingsystem":"CentOS",
+      "operatingsystemrelease":[ "5", "6", "7" ]
+    },
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    }
+  ],
+  "data_provider": null,
+  "dependencies": [
+  ]
+}
+
