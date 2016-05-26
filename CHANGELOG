@@ -1,0 +1,9 @@
+v0.2.0: 2016-05-26
+Changes:
+  * BREAK: Change fact to return an array of versions for every package
+  * BREAK: Change version format to include release and architecture
+  * Support multiple installed versions of a single package
+
+v0.1.0: 2016-05-16
+Changes:
+  * Initial release 
